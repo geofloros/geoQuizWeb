@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "geoQuizWeb"
+    }
+  }
+}

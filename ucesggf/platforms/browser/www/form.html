@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<div id="info">
+<h1><b>Question Form </b></h1>
+<form action ="/myform" method="post">
+
+		<label for="question">Question</label>
+		<input type="text" size="25" id="question"/>
+	<br><br>
+		<label for="optionA">Option A</label>
+		<input type="text" size="25" id="optionA"/>
+	<br><br>
+		<label for="optionB">Option B</label>
+		<input type="text" size="25" id="optionB"/>
+	<br><br>
+		<label for="optionC">Option C</label>
+		<input type="text" size="25" id="optionC"/>
+	<br><br>
+		<label for="optionD">Option D</label>
+		<input type="text" size="25" id="optionD"/>
+	<br><br>
+		<label for="solution">Solution</label>
+		<input type="text" size="25" id="solution"/>
+	<br><br>
+		<label for="atitude">Longitude</label>
+		<input type="text" size="25" id="longitude"/>
+	<br><br>
+		<label for="longitude">Latitude</label>
+		<input type="text" size="25" id="latitude"/>
+	<br><br>
+</form>
+</div>
+	
+	<div id="dataUploadResult">The result of the upload goes here</div>
+	<button id="startUpload" onclick="startDataUpload()">Start Data Upload</button>
+	<script src="./js/upload.js"></script>
+
+</body>
+</html>
