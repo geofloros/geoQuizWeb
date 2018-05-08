@@ -1,3 +1,4 @@
+//Source: Adapted from Ellul, 2018: Web and Mobile Apps and Programming – Leaflet and Javascript Part 1
 // load the map
 		var mymap2 = L.map('mapid').setView([51.524559, -0.134040], 14);
 // load the tiles
